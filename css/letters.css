@@ -161,3 +161,37 @@
 	position: absolute;
 	left: 20px;
 }
+
+
+.Y{
+	width: 60px;
+	height: 100px;
+}
+
+.Y1{
+	height:60px; 
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-transform: skew(30deg); 
+	-moz-transform: skew(30deg); 
+	-o-transform: skew(30deg);
+}
+
+.Y2{
+	height:60px; 
+	position: absolute;
+	top: 0;
+	right: 0;
+	-webkit-transform: skew(-30deg); 
+	-moz-transform: skew(-30deg); 
+	-o-transform: skew(-30deg);
+	border-left: 5px solid white;
+}
+
+.Y3{
+	height: 40px;
+	position: absolute;
+	bottom: 0;
+	left: 18px;
+}
