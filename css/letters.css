@@ -2,19 +2,19 @@
 	display: inline-block;
 }
 .letter-container{
-	margin-left: 10px;
+	margin-left: 15px;
 	position: relative;
 }
 .letter{
 	width: 20px;
-	height: 80px;
+	height: 100px;
 	background-color: black;
 }
 .parallelogram-letter{
 	display: inline-block;
 	width: 25px;
 	-webkit-transform: skew(20deg); 
-	-moz-transform: skew(20deg); 
+	-moz-transform: skew(15deg); 
 	-o-transform: skew(20deg);
 }
 
@@ -28,6 +28,17 @@
 .horizontal-letter{
 	height: 20px;
 	width: 60px;
+}
+
+.circuar-letter{
+	width: 30px; 
+	height: 20px; 
+	background: transparent; 
+	border: 20px solid black;
+	border-left-color: transparent;
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px;
 }
 
 .rotate5{
@@ -62,8 +73,8 @@
 }
 .K2{
 	position: absolute;
-	height: 50px;
-	bottom: 30px;
+	height: 65px;
+	bottom: 35px;
 	left: 25px;
 	-webkit-transform: skew(-35deg); 
 	-moz-transform: skew(-35deg); 
@@ -73,10 +84,14 @@
 	position: absolute;
 	bottom: 0px;
 	left: 30px;
-	height: 45px;
+	height: 50px;
 	-webkit-transform: skew(35deg); 
 	-moz-transform: skew(35deg); 
 	-o-transform: skew(35deg);
+}
+
+.E{
+	width: 55px;
 }
 
 .E2, .E3, .E4{
@@ -85,8 +100,33 @@
 	top: 0;
 }
 .E3{
-	top: 30px;
+	top: 40px;
 }
 .E4{
-	top: 60px;
+	top: 80px;
+}
+.R{
+	width: 40px;
+	height: 100px;
+}
+.R1{
+	z-index: 1;
+	border-right: 3px solid white;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+.R2{
+	position: absolute;
+	left: -5;
+	top: 0;
+}
+.R3{
+	position: absolute;
+	bottom: 0px;
+	left: 35px;
+	height: 45px;
+	-webkit-transform: skew(30deg); 
+	-moz-transform: skew(30deg); 
+	-o-transform: skew(30deg);
 }
