@@ -10,6 +10,9 @@
 	margin-left: 15px;
 	position: relative;
 }
+.yellow .letter{
+	background: #FFE600;
+}
 .letter{
 	width: 25px;
 	height: 100px;
@@ -35,6 +38,11 @@
 	width: 60px;
 }
 
+.yellow .circuar-letter{
+	border: 20px solid #FFE600;
+	border-left-color: transparent;
+	background:transparent;
+}
 .circuar-letter{
 	width: 30px; 
 	height: 20px; 
@@ -65,9 +73,14 @@
 /* Letter Specific Styles */
 
 .M2, .A1{
-	border-right: 3px solid #fff;
+	border-right: 3px solid #FFF;
 	z-index: 1;
 }
+
+.yellow .M2, .yellow .A1{
+	border-right: 3px solid #00B0B7;
+}
+
 .A3{
 	position: absolute;
 	bottom: 15;
@@ -116,10 +129,13 @@
 }
 .R1{
 	z-index: 1;
-	border-right: 3px solid white;
+	border-right: 3px solid #FFF;
 	position: absolute;
 	top: 0;
 	left:0;
+}
+.yellow .R1{
+	border-right: 3px solid #00B0B7;
 }
 .R2{
 	position: absolute;
@@ -141,10 +157,13 @@
 }
 .P1{
 	z-index: 1;
-	border-right: 3px solid white;
+	border-right: 3px solid #FFF;
 	position: absolute;
 	top: 0;
 	left:0;
+}
+.yellow .P1{
+	border-right: 3px solid #00B0B7;
 }
 .P2{
 	position: absolute;
@@ -191,7 +210,11 @@
 	-webkit-transform: skew(-30deg); 
 	-moz-transform: skew(-25deg); 
 	-o-transform: skew(-30deg);
-	border-left: 5px solid white;
+	border-left: 5px solid #FFF;
+}
+
+.yellow .Y2{
+	border-left: 3px solid #00B0B7;
 }
 
 .Y3{

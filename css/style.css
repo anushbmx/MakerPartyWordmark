@@ -90,7 +90,10 @@ strong {
 }
 .wrapper{
   margin: 4em auto;
-  width: 500px;
+}
+.wordmark{
+  width: 480px;
+  margin: 0 auto;
 }
 h1,h2,h3,h4,h5,h6{
   text-transform: capitalize;
@@ -121,4 +124,11 @@ h1,h2,h3,h4,h5,h6{
 .links a:hover{
   background-color: #FFE600;
   color: #000;
+}
+.links a.active{
+  background-color: #00B0B7;
+}
+.Wordmark-wrapper{
+  margin: 0 auto;
+  width: 450px;
 }
