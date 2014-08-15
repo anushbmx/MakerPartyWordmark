@@ -106,7 +106,7 @@
 	top: 80px;
 }
 .R{
-	width: 40px;
+	width: 60px;
 	height: 100px;
 }
 .R1{
@@ -145,4 +145,19 @@
 	position: absolute;
 	left: -5;
 	top: 0;
+}
+
+.T{
+	width: 80px;
+	height: 100px;
+}
+.T1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 70px;
+}
+.T2{
+	position: absolute;
+	left: 20px;
 }
