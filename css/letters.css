@@ -57,6 +57,9 @@
 	bottom: 15;
 	left: 0;
 }
+.K{
+	width: 60px;
+}
 .K2{
 	position: absolute;
 	height: 50px;
@@ -74,4 +77,16 @@
 	-webkit-transform: skew(35deg); 
 	-moz-transform: skew(35deg); 
 	-o-transform: skew(35deg);
+}
+
+.E2, .E3, .E4{
+	position: absolute;
+	left: 0px;
+	top: 0;
+}
+.E3{
+	top: 30px;
+}
+.E4{
+	top: 60px;
 }
