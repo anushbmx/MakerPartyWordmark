@@ -6,16 +6,16 @@
 	position: relative;
 }
 .letter{
-	width: 20px;
+	width: 25px;
 	height: 100px;
 	background-color: black;
 }
 .parallelogram-letter{
 	display: inline-block;
 	width: 25px;
-	-webkit-transform: skew(20deg); 
+	-webkit-transform: skew(15deg); 
 	-moz-transform: skew(15deg); 
-	-o-transform: skew(20deg);
+	-o-transform: skew(15deg);
 }
 
 .parallelogram-letter-inv{
@@ -131,7 +131,7 @@
 	-o-transform: skew(30deg);
 }
 .P{
-	width: 40px;
+	width: 50px;
 	height: 100px;
 }
 .P1{
