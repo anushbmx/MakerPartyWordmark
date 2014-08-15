@@ -130,3 +130,19 @@
 	-moz-transform: skew(30deg); 
 	-o-transform: skew(30deg);
 }
+.P{
+	width: 40px;
+	height: 100px;
+}
+.P1{
+	z-index: 1;
+	border-right: 3px solid white;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+.P2{
+	position: absolute;
+	left: -5;
+	top: 0;
+}
