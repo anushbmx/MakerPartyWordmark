@@ -1,12 +1,17 @@
 .text div {
 	display: inline-block;
 }
+.letter-container{
+	margin-left: 10px;
+	position: relative;
+}
 .letter{
 	width: 20px;
 	height: 80px;
 	background-color: black;
 }
 .parallelogram-letter{
+	display: inline-block;
 	width: 25px;
 	-webkit-transform: skew(20deg); 
 	-moz-transform: skew(20deg); 
@@ -20,16 +25,11 @@
 	-o-transform: skew(-20deg);
 }
 
-.M2{
-	border-right: 3px solid #fff;
-	z-index: 1;
+.horizontal-letter{
+	height: 20px;
+	width: 60px;
 }
-.h45{
-	height: 45px;
-}
-.h50{
-	height: 50px;
-}
+
 .rotate5{
 	-webkit-transform: rotate(-5deg);
 	-moz-transform: rotate(-5deg);
@@ -44,4 +44,16 @@
 	-webkit-transform: rotate(-15deg);
 	-moz-transform: rotate(-15deg);
 	transform: rotate(-15deg);
+}
+
+/* Letter Specific Styles */
+
+.M2, .A1{
+	border-right: 3px solid #fff;
+	z-index: 1;
+}
+.A3{
+	position: absolute;
+	bottom: 15;
+	left: 0;
 }
