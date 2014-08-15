@@ -1,3 +1,24 @@
+@font-face {
+  font-family: 'Aleo';
+  src: url('fonts/Aleo-Bold.otf');
+  src: url('fonts/Aleo-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aleo';
+  src: url('fonts/Aleo-Regular.otf');
+  src: url('fonts/Aleo-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url('fonts/Latto-300.woff') format('woff');
+}
+
 /* ! normalize.css v2.1.0 | MIT License | git.io/normalize */
 article,
 aside,
@@ -33,10 +54,12 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
+   font: 300 16px Lato,'Open Sans',sans-serif;
 }
 
 body {
   margin: 0;
+  font: 300 16px Lato,'Open Sans',sans-serif;
 }
 
 a:focus {
@@ -60,4 +83,42 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
+}
+.heading{
+  text-align: center;
+  font-size: 3em;
+}
+.wrapper{
+  margin: 4em auto;
+  width: 500px;
+}
+h1,h2,h3,h4,h5,h6{
+  text-transform: capitalize;
+  font-family: Aleo, Lato, "Times New Roman",Times,serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.links{
+  width: 300px;
+  margin: 10px auto;
+}
+
+.links li{
+  list-style: none;
+  display: inline-block;
+}
+
+.links a{
+  display: block;
+  padding: 10px;
+  background-color: #EF413D;
+  color: #fff;
+  text-decoration: none;
+  width: 100px;
+  text-align: center;
+}
+
+.links a:hover{
+  background-color: #FFE600;
+  color: #000;
 }

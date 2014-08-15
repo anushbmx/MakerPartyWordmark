@@ -1,6 +1,11 @@
 .text div {
 	display: inline-block;
 }
+
+.text{
+	margin-bottom: 20px;
+}
+
 .letter-container{
 	margin-left: 15px;
 	position: relative;
@@ -8,7 +13,7 @@
 .letter{
 	width: 25px;
 	height: 100px;
-	background-color: black;
+	background-color: #00B0B7;
 }
 .parallelogram-letter{
 	display: inline-block;
@@ -34,7 +39,7 @@
 	width: 30px; 
 	height: 20px; 
 	background: transparent; 
-	border: 20px solid black;
+	border: 20px solid #00B0B7;
 	border-left-color: transparent;
 	-moz-border-radius: 50px; 
 	-webkit-border-radius: 50px; 
@@ -106,7 +111,7 @@
 	top: 80px;
 }
 .R{
-	width: 60px;
+	width: 50px;
 	height: 100px;
 }
 .R1{
@@ -148,7 +153,7 @@
 }
 
 .T{
-	width: 80px;
+	width: 70px;
 	height: 100px;
 }
 .T1{
@@ -172,9 +177,9 @@
 	height:60px; 
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: 5px;
 	-webkit-transform: skew(30deg); 
-	-moz-transform: skew(30deg); 
+	-moz-transform: skew(25deg); 
 	-o-transform: skew(30deg);
 }
 
@@ -184,7 +189,7 @@
 	top: 0;
 	right: 0;
 	-webkit-transform: skew(-30deg); 
-	-moz-transform: skew(-30deg); 
+	-moz-transform: skew(-25deg); 
 	-o-transform: skew(-30deg);
 	border-left: 5px solid white;
 }
@@ -193,5 +198,5 @@
 	height: 40px;
 	position: absolute;
 	bottom: 0;
-	left: 18px;
+	left: 21px;
 }
