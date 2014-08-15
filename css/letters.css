@@ -1,10 +1,11 @@
+.text div {
+	display: inline-block;
+}
 .letter{
 	width: 20px;
 	height: 80px;
 	background-color: black;
-	display: inline-block;
 }
-
 .parallelogram-letter{
 	width: 25px;
 	-webkit-transform: skew(20deg); 
