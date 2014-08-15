@@ -57,3 +57,21 @@
 	bottom: 15;
 	left: 0;
 }
+.K2{
+	position: absolute;
+	height: 50px;
+	bottom: 30px;
+	left: 25px;
+	-webkit-transform: skew(-35deg); 
+	-moz-transform: skew(-35deg); 
+	-o-transform: skew(-35deg);
+}
+.K3{
+	position: absolute;
+	bottom: 0px;
+	left: 30px;
+	height: 45px;
+	-webkit-transform: skew(35deg); 
+	-moz-transform: skew(35deg); 
+	-o-transform: skew(35deg);
+}
