@@ -1,0 +1,19 @@
+.hexagon .top{
+	width: 0;
+	border-bottom: 60px solid #6C6;
+	border-left: 104px solid transparent;
+	border-right: 104px solid transparent;
+
+}
+.hexagon .bottom{
+	width: 0;
+	border-top: 60px solid #6C6;
+	border-left: 104px solid transparent;
+	border-right: 104px solid transparent;
+}
+.hexagon .center{
+		
+		width: 208px;
+		height: 140px;
+		background-color: #6C6;
+}
