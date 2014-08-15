@@ -1,0 +1,46 @@
+.letter{
+	width: 20px;
+	height: 80px;
+	background-color: black;
+	display: inline-block;
+}
+
+.parallelogram-letter{
+	width: 25px;
+	-webkit-transform: skew(20deg); 
+	-moz-transform: skew(20deg); 
+	-o-transform: skew(20deg);
+}
+
+.parallelogram-letter-inv{
+	width: 25px;
+	-webkit-transform: skew(-20deg); 
+	-moz-transform: skew(-20deg); 
+	-o-transform: skew(-20deg);
+}
+
+.M2{
+	border-right: 3px solid #fff;
+	z-index: 1;
+}
+.h45{
+	height: 45px;
+}
+.h50{
+	height: 50px;
+}
+.rotate5{
+	-webkit-transform: rotate(-5deg);
+	-moz-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+}
+.rotate10{
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+.rotate15{
+	-webkit-transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
