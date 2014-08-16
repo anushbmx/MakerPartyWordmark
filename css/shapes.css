@@ -1,22 +1,22 @@
 .hexagon{
-	width: 560px;
 	margin: 0 auto;
+	width: 560px;
 }
 .hexagon .top{
-	width: 0;
 	border-bottom: 180px solid #00B0B7;
 	border-left: 280px solid transparent;
 	border-right: 280px solid transparent;
+	width: 0;
 
 }
 .hexagon .bottom{
-	width: 0;
 	border-top: 180px solid #00B0B7;
 	border-left: 280px solid transparent;
 	border-right: 280px solid transparent;
+	width: 0;
 }
-.hexagon .center{
-	width: 560px;
-	height: 240px;
+.hexagon .center{	
 	background-color: #00B0B7;
+	height: 240px;
+	width: 560px;
 }
